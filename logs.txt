@@ -1,0 +1,72 @@
+
+[2026-04-08 15:45:22.656452]
+User ID: user_1
+Type: USER_ACTION
+Input: Hi
+Output: Hello! How can I assist you today?
+
+[2026-04-08 15:45:27.539397]
+User ID: user_1
+Type: SECURITY_BLOCK
+Input: delete all files
+Output: ⚠️ Action blocked: contains restricted keyword 'delete'
+
+[2026-04-08 15:46:05.423689]
+User ID: user_1
+Type: USER_ACTION
+Input: check disk
+Output: Disk usage is at 45% (simulated).
+
+[2026-04-08 15:46:24.844875]
+User ID: user_1
+Type: USER_ACTION
+Input: show files
+Output: Simulated Files: file1.txt, report.pdf, data.csv
+
+[2026-04-08 15:46:46.956547]
+User ID: user_1
+Type: USER_ACTION
+Input: what is your purpose
+Output: I received your request: 'what is your purpose'
+
+[2026-04-08 15:47:00.009361]
+User ID: user_1
+Type: RATE_LIMIT
+Input: drop database users
+Output: ⚠️ Too many requests. Please try later.
+
+[2026-04-08 15:47:12.519500]
+User ID: user_1
+Type: SECURITY_BLOCK
+Input: drop database users
+Output: ⚠️ Action blocked: contains restricted keyword 'drop database'
+
+[2026-04-08 15:47:14.671070]
+User ID: user_1
+Type: USER_ACTION
+Input: status
+Output: System is running normally and securely.
+
+[2026-04-08 15:47:33.414164]
+User ID: user_1
+Type: SECURITY_BLOCK
+Input: remove data
+Output: ⚠️ Action blocked: contains restricted keyword 'remove'
+
+[2026-04-08 15:47:44.137213]
+User ID: user_1
+Type: USER_ACTION
+Input: help
+Output: You can ask me to analyze or process safe requests.
+
+[2026-04-08 15:48:08.346604]
+User ID: user_1
+Type: USER_ACTION
+Input: shut down system
+Output: I received your request: 'shut down system'
+
+[2026-04-08 15:48:18.541890]
+User ID: user_1
+Type: RATE_LIMIT
+Input: remove files
+Output: ⚠️ Too many requests. Please try later.
